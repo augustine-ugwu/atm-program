@@ -34,7 +34,7 @@ function make_withdrawal() {
 // when the user selects a wrong input.
 function error() {
   prompt(
-    "Error: \nYou entered a wrong input. Please select a choice from 1 - 4."
+    "Error: \nYou have entered a wrong input, please select a choice from 1 - 4."
   );
   atm();
 }
